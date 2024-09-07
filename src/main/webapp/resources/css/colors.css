@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+:root {
+    --color-gray: #2b2d39;
+    --color-gray60: #202024;
+    --color-gray50: #2E313D;
+    --color-gray40: #7C7C8A;
+    --color-gray30: #C4C4CC;
+    --color-white: #fff;
+    --color-white-alpha: rgba(255, 255, 255, 0.28);
+    --color-background: #252733;
+    --color-blue: #4A61EA;
+    --color-blue-alpha: rgba(74, 98, 234, 0.795);
+    --color-red: #E67273;
+    --color-yellow: #FFE0A3;
+    --color-green: #71C69D;
+}

@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+
+@import url(colors.css);
+
+.btn-back {
+    background-color: var(--color-gray50);
+    border: none;
+    border-radius: 12px;
+    padding: 8px 40px;
+    font-weight: 600;
+    margin: 16px 16px 0 0;
+}
+
+.btn-add {
+    background-color: var(--color-blue);
+    border: none;
+    border-radius: 12px;
+    padding: 8px 40px;
+    margin-right: 40px;
+    margin-top: 16px;
+    color: var(--color-white);
+    font-weight: 600;
+}
+
+.btn-add a {
+    color: var(--color-white);
+}
+
+.btn-add:hover {
+    background-color: var(--color-blue-alpha);
+}
+
+.btn-back a {
+    color: var(--color-white);
+}
+
+.card {
+    background-color: var(--color-gray);
+    color: var(--color-white);
+}
+
+.row {
+    width: 84.5vw;
+    margin-left: 26px;
+}

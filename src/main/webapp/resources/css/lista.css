@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+
+@import url(colors.css);
+
+.edit-button {
+    border: none;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.delete-button {
+    border: none;
+    background-color: var(--color-red);
+    color: var(--color-white);
+    border-radius: 12px;
+    padding: 12px;
+    margin-left: 12px;
+}
+
+.despesa, .receita {
+    background-color: var(--color-gray);
+    border-radius: 12px;
+    padding: 24px;
+    margin-left: 38px;
+    margin-bottom: 24px;
+    width: 83vw;
+    align-items: center;
+    justify-content: space-between
+}
+
+.btn-back {
+    background-color: var(--color-gray50);
+    border: none;
+    border-radius: 12px;
+    padding: 8px 40px;
+    font-weight: 600;
+    margin: 16px 40px 0 0;
+}
+
+.btn-back a {
+    color: var(--color-white);
+}
+.modal-content {
+    background-color: var(--color-gray);
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
+.close-button {
+    border: none;
+    background-color: var(--color-gray40);
+    color: var(--color-white);
+    border-radius: 12px;
+    padding: 12px;
+    margin-left: 12px;
+}

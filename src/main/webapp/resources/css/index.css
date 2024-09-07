@@ -1,0 +1,435 @@
+@charset "ISO-8859-1";
+@import url(../css/colors.css);
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-white);
+}
+
+main {
+    margin-left: 238px;
+}
+
+img {
+    margin: 29px 0 95px 43px;
+}
+
+i {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 40px;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 24px 0 16px 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ph-plus {
+    font-size: 20px;
+}
+
+.menu {
+    height: 100vh;
+    width: 15rem;
+    border-right: 2px solid var(--color-gray50);
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar {
+    border-bottom: 2px solid var(--color-gray50);
+    margin-left: 238px;
+    height: 85px;
+}
+
+.botoes-navbar {
+    display: flex;
+    align-items: center;
+}
+
+.botao-navbar2 {
+    margin: 0 22px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.profile i {
+    color: var(--color-white);
+    margin: 1rem;
+    font-size: 36px;
+}
+
+.profile p {
+    margin-top: 1rem;
+}
+
+.btn-secondary {
+    align-items: center;
+    background-color: var(--color-gray);
+    border: none;
+    margin-left: 40px;
+    width: 55px;
+    height: 55px;
+}
+
+.btn-secondary:hover {
+    background-color: var(--color-gray50);
+}
+
+.dropdown-menu {
+    background-color: var(--color-gray);
+}
+
+.dropdown-item {
+    color: var(--color-white);
+}
+
+.dropdown-item:hover {
+    background-color: var(--color-gray50);
+    color: var(--color-white);
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.btn-theme {
+    margin-left: auto;
+}
+
+.nav {
+    width: 100%;
+    margin-left: 30px;
+}
+
+.nav i {
+    margin-right: 16px;
+}
+
+.nav-link {
+    display: flex;
+    margin: 8px;
+    color: var(--color-white);
+}
+
+.nav-link:hover {
+    color: var(--color-blue);
+}
+
+.active {
+    background-color: var(--color-gray) !important;
+    font-weight: 600;
+    border-left: 3px solid var(--color-blue);
+}
+
+.logout {
+    width: 90%;
+    background-color: var(--color-background);
+    border: none;
+    color: var(--color-white);
+    margin: 38% 0 0 20px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.logout:hover {
+    background-color: var(--color-gray);
+    border-radius: 12px;
+}
+
+.init {
+    display: flex;
+    justify-content: space-between;
+}
+.form-select {
+    width: 130px;
+    height: 35px;
+    margin: 20px 40px;
+    background-color: var(--color-gray);
+    border: none;
+    color: var(--color-white);
+    border-radius: 12px;
+}
+
+.content {
+    margin: 0 40px;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1.2fr 2fr 2fr;
+    grid-template-rows: 18vh 26vh 18vh;
+    grid-template-areas: 
+        "economia receitas despesas"
+        "economia contas contas"
+        "economia pendencias pendencias"
+    ;
+}
+
+.content div {
+    background-color: var(--color-gray);
+    border-radius: 12px;
+}
+
+.economia {
+    grid-area: economia;
+    width: 100%;
+}
+
+.receitas {
+    grid-area: receitas;
+}
+
+.despesas {
+    grid-area: despesas;
+}
+
+.contas {
+    grid-area: contas;
+}
+
+.pendencias {
+    grid-area: pendencias;
+}
+
+.icon-title {
+    font-size: 11px;
+}
+
+.blue {
+    color: var(--color-blue);
+}
+
+.red {
+    color: var(--color-red)
+}
+
+.yellow {
+    color: var(--color-yellow);
+}
+
+.white-alpha {
+    color: var(--color-white-alpha);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.total {
+    grid-area: total;
+}
+.previsto {
+    grid-area: previsto;
+}
+.valor-total {
+    grid-area: valor-total;
+}
+.valor-previsto {
+    grid-area: valor-previsto;
+}
+
+.card-item, .content-text {
+    margin: 0 16px 0 24px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.graphic {
+    display: flex;
+    justify-content: center
+}
+
+.graphic img {
+    margin: 34px 0 24px 0 !important;
+}
+
+.economia-items {
+    text-align: center;
+}
+
+.economia-infos {
+    margin-left: 24px;
+}
+
+.economia-icon-text {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.ph-star {
+    margin-right: 12px;
+}
+
+.icon-itau {
+    width: 35px;
+    margin: 44px 0 12px 0;
+}
+
+.pendencias-items {
+	margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pendencias-items p{
+	margin-top: 12px;
+}
+
+.contas-content {
+    margin-right: 22px;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 5vh 5vh;
+    grid-template-areas: 
+        "itau carteira"
+        "nubank total"
+    ;
+}
+
+.contas-icon i {
+    margin: 18px 16px 26px 22px !important;
+}
+
+.contas-item {
+    display: flex;
+}
+
+.contas-text {
+    width: 100%;
+}
+
+.content-text {
+    margin: 0 !important;
+}
+
+.itau {
+    grid-area: itau;
+}
+
+.nubank {
+    grid-area: nubank;
+}
+
+.font-sm {
+    font-size: small; 
+}
+.nav-link a {
+    color: var(--color-white);
+}
+
+.nav-link:hover {
+    color: var(--color-blue);
+}
+
+@media(max-width: 1027px) {
+    main {
+        margin: 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .navbar {
+        margin: 0;
+    }
+
+    .content {
+        margin: 0 40px;
+        display: grid;
+        grid-gap: 1.5rem;
+        grid-template-columns: 2.3fr 2fr 2fr;
+        grid-template-rows: 18vh 55vh 18vh;
+        grid-template-areas: 
+            "economia receitas despesas"
+            "economia contas contas"
+            "pendencias pendencias pendencias"
+        ;
+    }
+
+    .contas-content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 730px) {
+    main {
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+    .menu {
+        display: none;
+    }
+
+    .navbar {
+        margin: 0;
+    }
+
+    .container-fluid {
+        justify-content: space-around !important;
+        flex-wrap: nowrap !important;
+    }
+
+    .dropdown-toggle {
+        margin-left: 24px !important;
+    }
+
+    .btn-theme {
+        margin-right: 12px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contas, .despesas, .receitas, .pendencias, .economia {
+        width: 100% !important;
+        margin: 0;
+    }
+
+    .pendencias p {
+        text-align: center;
+        margin: 16px;
+        font-size: 0.85rem;
+    }
+
+    .profile p {
+        display: none;
+    }
+
+    .contas-content {
+        display: flex;
+        flex-direction: column;
+    }
+}

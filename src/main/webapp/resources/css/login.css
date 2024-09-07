@@ -1,0 +1,134 @@
+@charset "ISO-8859-1";
+
+@import url(colors.css);
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-background);
+}
+
+img {
+    width: 15vmax;
+    padding-top: 120px; 
+}
+
+input {
+    width: 30vmax;
+    height: 48px;
+    border-radius: 12px;
+    padding: 12px 16px;
+    border: none;
+    background-color: var(--color-gray);
+    color: var(--color-gray40);
+    margin: 16px 25px 16px 0;
+    padding-left: 45px;
+}
+
+input:focus {
+    outline: solid 1px var(--color-blue);
+}
+
+.box {
+    margin: auto;
+    height: 100vh;
+    width: min-content;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container p {
+    color: var(--color-white-alpha);
+    padding: 14px;
+    font-size: 1.1rem;
+}
+
+.label {
+    color: var(--color-white) !important;
+    font-weight: 600;
+    font-size: 1rem !important;
+    padding: 0 !important;
+    margin: 20px 0 0 28px !important;
+}
+
+.container a {
+    padding: 0.5rem;
+    color: var(--color-gray40);
+    font-size: 0.9rem;
+}
+
+.ph-envelope, .ph-lock, .ph-user, .ph-identification-card, .ph-phone, .ph-calendar {
+    position: relative;
+    color: var(--color-gray40);
+    font-size: 25px;
+    top: 5px;
+    left: 40px;
+}
+
+input:focus {
+    outline-color: var(--color-blue);
+    border: none;
+}
+
+.checkbox {
+    display: flex;
+    margin-left: 35px;
+    align-items: center;
+}
+
+.checkbox input  {
+    display: none;
+}
+
+.checkbox input + label:before {
+    content: '';
+    width: 23px;
+    height: 23px;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-bottom: 0;
+    display: inline-block;
+    background: var(--color-gray60);
+    vertical-align: middle;
+    border: solid 2px var(--color-gray);
+}
+
+.checkbox input:checked + label:before {
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='23' height='23' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: var(--color-blue);
+    background-position: center;
+    border: solid 2px var(--color-blue);
+}
+
+.checkbox p {
+    color: var(--color-gray30);
+    font-size: 14px;
+}
+
+.btn {
+    background-color: var(--color-blue);
+    border: none;
+    color: var(--color-white);
+    width: 30vmax;
+    height: 43px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.btn:hover {
+    background-color: var(--color-blue-alpha);
+    color: var(--color-white);
+}

@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+
+@import url(../css/colors.css);
+
+.ph-user, .ph-identification-card, .ph-phone, .ph-calendar {
+    position: relative;
+    color: var(--color-gray40);
+    font-size: 25px;
+    top: 5px;
+    left: 40px;
+}
