@@ -60,7 +60,5 @@ CREATE TABLE t_fin_despesas (
     ds_despesa VARCHAR(500)
 );
 
-##SCREENSHOTS
-
 
 
