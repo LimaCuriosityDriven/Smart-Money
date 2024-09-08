@@ -20,6 +20,12 @@ SmartMoney is a personal finance organizer currently in development. It aims to 
   <img src="https://www.svgrepo.com/show/353498/bootstrap.svg" alt="Bootstrap" width="25"/>
 </div>
 
+## Screenshots
+![Menu SmartMoney](https://github.com/user-attachments/assets/c2c30171-fafc-4571-baea-beb34c0a3cdd)
+![Cadastro de Despesa](https://github.com/user-attachments/assets/6b0936df-e241-4cb2-bd35-2733704a1baa)
+![Confirmation Cadastro](https://github.com/user-attachments/assets/62acbbf3-71f1-45cb-b984-5ca3331c4235)
+![ExcluirReceb](https://github.com/user-attachments/assets/c0e34c11-29e2-4e7a-a289-881ee36fd24d)
+
 ## SQL Schema
 
 Here is the SQL schema for the tables used in the SmartMoney project:
@@ -53,3 +59,8 @@ CREATE TABLE t_fin_despesas (
     st_despesa INT NOT NULL,
     ds_despesa VARCHAR(500)
 );
+
+##SCREENSHOTS
+
+
+
